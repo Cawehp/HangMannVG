@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">hangMan();</string>
+    <string name="settings">Inställningar</string>
+    <string name="playy">Spela</string>
+    <string name="Settingss">Inställningar</string>
+    <string name="code">kod</string>
+    <string name="java">java</string>
+    <string name="error">fel</string>
+    <string name="compile">kompilera</string>
+    <string name="dance">dansa</string>
+    <string name="sail">segla</string>
+    <string name="ferrari">ferrari</string>
+    <string name="gun">pistol</string>
+    <string name="contrary">motsats</string>
+    <string name="ok">ok</string>
+    <string name="english">engelska</string>
+    <string name="swedish">svenska</string>
+    <string name="created_by_cappcapp_games_inc" translatable="false">Skapad av cappcapp games inc.</string>
+    <string name="usedLetters">Använda Bokstäver:</string>
+    <string name="word">"Ord: "</string>
+    <string name="YouWon">Du vann!</string>
+    <string name="YouLost">Du förlorade :(</string>
+    <string name="TriesLeft">"Försök kvar: "</string>
+
+
+    <string-array name="stringArray">
+
+        <item name="kod">kod</item>
+        <item name="java">java</item>
+        <item name="fel">fel</item>
+        <item name="kompilera">kompilera</item>
+        <item name="dansa">dansa</item>
+        <item name="segla">segla</item>
+        <item name="ferrari">ferrari</item>
+        <item name="pistol">pistol</item>
+        <item name="motsats">motsats</item>
+        <item name="ok">ok</item>
+
+    </string-array>
+
+</resources>

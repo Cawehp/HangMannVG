@@ -1,0 +1,74 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">hangMan();</string>
+    <string name="language" translatable="false">Language</string>
+    <string name="play" translatable="false">Play!</string>
+    <string name="play2" translatable="false">Play</string>
+    <string name="settings">Settings</string>
+    <string name="playy">play</string>
+    <string name="Settingss">Settings</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="P" translatable="false">P</string>
+    <string name="S" translatable="false">S</string>
+    <string name="gallow" translatable="false">GALLOW</string>
+    <string name="torso" translatable="false">TORSO</string>
+    <string name="larm" translatable="false">LARM</string>
+    <string name="rarm" translatable="false">RARM</string>
+    <string name="lleg" translatable="false">LLEG</string>
+    <string name="rleg" translatable="false">RLEG</string>
+    <string name="button" translatable="false">Button</string>
+    <string name="test" translatable="false">Test</string>
+    <string name="created_by_cappcapp_games_inc">Created by CappCapp Games Inc.</string>
+    <string name="world" translatable="false">World</string>
+    <string name="green" translatable="false">GREEN</string>
+    <string name="nature" translatable="false">Nature</string>
+    <string name="worldSettings" translatable="false">WorldSettings</string>
+    <string name="worldPlay" translatable="false">WorldPLay</string>
+    <string name="lLeg" translatable="false">LLeg</string>
+    <string name="rLeg" translatable="false">Rleg</string>
+    <string name="rArm" translatable="false">Rarm</string>
+    <string name="torso1" translatable="false">Torso1</string>
+    <string name="head" translatable="false">Head</string>
+    <string name="lArm" translatable="false">Larm</string>
+    <string name="check" translatable="false">Check</string>
+    <string name="squareBlack" translatable="false">SquareBlack</string>
+    <string name="winLose" translatable="false">winLose</string>
+    <string name="triesLeft" translatable="false">TriesLeft</string>
+    <string name="square1" translatable="false">Square1</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="again" translatable="false">again</string>
+    <string name="usedLetters">Used Letters:</string>
+    <string name="word">"Word: "</string>
+    <string name="YouWon">You Won!</string>
+    <string name="YouLost">You lost :(</string>
+    <string name="TriesLeft">"Tries left: "</string>
+
+
+    <string-array name="stringArray">
+
+        <item name="code">code</item>
+        <item name="java">java</item>
+        <item name="error">error</item>
+        <item name="compile">compile</item>
+        <item name="dance">dance</item>
+        <item name="sail">sail</item>
+        <item name="ferrari">ferrari</item>
+        <item name="gun">gun</item>
+        <item name="contrary">contrary</item>
+        <item name="ok">ok</item>
+
+    </string-array>
+
+    <string name="code">code</string>
+    <string name="java">java</string>
+    <string name="error">error</string>
+    <string name="compile">compile</string>
+    <string name="dance">dance</string>
+    <string name="sail">sail</string>
+    <string name="ferrari">ferrari</string>
+    <string name="gun">gun</string>
+    <string name="contrary">contrary</string>
+    <string name="ok">ok</string>
+    <string name="english">English</string>
+    <string name="swedish">Swedish</string>
+</resources>
