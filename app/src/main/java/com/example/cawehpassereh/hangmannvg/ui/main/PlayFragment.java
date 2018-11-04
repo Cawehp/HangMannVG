@@ -54,7 +54,7 @@ public class PlayFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_play, container, false);
 
     }
-    
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
