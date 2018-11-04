@@ -71,4 +71,5 @@
     <string name="ok">ok</string>
     <string name="english">English</string>
     <string name="swedish">Swedish</string>
+    <string name="theme">Theme</string>
 </resources>

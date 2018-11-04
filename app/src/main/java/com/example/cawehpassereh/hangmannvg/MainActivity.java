@@ -6,7 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-
+import android.widget.ImageView;
+import android.widget.Switch;
 import com.example.cawehpassereh.HangMannVG.R;
 import com.example.cawehpassereh.hangmannvg.ui.main.MainFragment;
 import com.example.cawehpassereh.hangmannvg.ui.main.PlayFragment;
@@ -14,14 +15,30 @@ import com.example.cawehpassereh.hangmannvg.ui.main.PlayFragment;
 
 public class MainActivity extends AppCompatActivity {
 
-    private FloatingActionButton play;
-    private FloatingActionButton back;
-
+    //private boolean isSwitch;
+    private ImageView background;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
+
+        Switch theme = findViewById(R.id.theme);
+        background = findViewById(R.id.background);
+        //isSwitch = theme.isChecked();
+
+
+        theme.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                background.setImageResource(R.drawable.halloween);
+
+            }
+        });
+
+
+
 
         Toolbar myToolbar = findViewById(R.id.toolbar3);
         setSupportActionBar(myToolbar);
@@ -30,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.add(R.id.container, new MainFragment());
         fragmentTransaction.commit();
 
-        play = findViewById(R.id.floatingPlay);
-        back = findViewById(R.id.floatingBack);
+        FloatingActionButton play = findViewById(R.id.floatingPlay);
+        FloatingActionButton back = findViewById(R.id.floatingBack);
 
         play.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,10 +68,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
-
 
 
 }

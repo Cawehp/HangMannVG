@@ -18,6 +18,7 @@
             android:id="@+id/background"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
+            android:layout_marginStart="1dp"
             android:contentDescription="@string/nature"
             android:scaleType="fitXY"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -54,38 +55,51 @@
         android:layout_marginTop="0dp"
         android:background="@color/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"/>
+        android:theme="?attr/actionBarTheme" />
+
+    <Switch
+        android:id="@+id/theme"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/floatingBack"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="137dp"
+        android:checked="false"
+        android:text="@string/theme" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/toolbar3"
+        android:layout_alignTop="@+id/floatingPlay"
+        android:layout_alignBottom="@+id/toolbar3"
+        android:layout_marginStart="307dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="7dp"
+        android:layout_toStartOf="@+id/floatingPlay"
+        android:clickable="true"
+        android:rotation="0"
+        android:src="@drawable/floatback"
+        app:backgroundTint="@android:color/holo_blue_bright" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingPlay"
-        android:layout_width="match_parent"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/toolbar3"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="7dp"
-        android:layout_marginEnd="18dp"
+        android:layout_marginEnd="7dp"
         android:layout_marginBottom="9dp"
         android:clickable="true"
-        android:src="@android:drawable/ic_media_play"
-        app:backgroundTint="@color/colorAccent" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/floatingBack"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignStart="@+id/toolbar3"
-        android:layout_alignTop="@+id/floatingPlay"
-        android:layout_alignBottom="@+id/toolbar3"
-        android:layout_marginStart="292dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="8dp"
-        android:layout_toStartOf="@+id/floatingPlay"
-        android:clickable="true"
-        android:rotation="90"
-        android:src="@android:drawable/arrow_down_float"
-        app:backgroundTint="@color/colorAccent" />
+        android:src="@drawable/floatplay"
+        app:backgroundTint="@android:color/holo_blue_bright" />
 
 </RelativeLayout>
 
